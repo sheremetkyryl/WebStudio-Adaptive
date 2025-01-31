@@ -28,13 +28,18 @@
         <img src="./src/images/logo/webstudio.webp" alt="логотип"/>
     </a>
     
-      <nav class="nav">
+      <nav class="nav" data-menu>
         <ul class="nav__list">
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link nav__link--active" href="#">Студія</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="portfolio.html">Портфоліо</a></li>
             <li class="nav__item animate__animated animate__fadeInDown"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
       </nav>
+      <button class="header-menu" type="button" data-menu-button>
+        <span class="header-menu-icon"></span>
+      </button>
+
+
       <ul class="contacts">
         <li class="contacts__item animate__animated animate__fadeInDown">
           <a class="contacts__link" href="mailto:info@devstudio.com"> <svg class="contacts__icon" width="16px" height="12px" >
@@ -386,6 +391,8 @@
               </div>
       </section>
     </main>
+
+    
     <footer class="footer">
       <div data-aos="fade-up" class="container footer__container">
         <div class="container__contacts">
